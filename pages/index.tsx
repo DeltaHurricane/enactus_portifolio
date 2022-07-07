@@ -5,9 +5,10 @@ const Home: NextPage = () => {
   return (
     <>
       <Box
-        position="absolute"
+        gridArea={"main"}
         w="100%"
-        h="90vh"
+        overflow={"hidden"}
+        h={["100vh", "90vh"]}
         bg={"url(bg.png) center/cover no-repeat"}
         filter="auto"
         blur="3px"
