@@ -5,9 +5,11 @@ export function Footer() {
     <VStack
       as={"footer"}
       gridArea="footer"
-      color={"blue.500"}
+      color={"blue.800"}
       justifyContent={"center"}
-      fontWeight={"bold"}
+      textDecoration={"underline"}
+      fontSize={"16px"}
+      boxShadow={"0px 0px 4px 4px rgba(0,0,0,0.31)"}
     >
       <Link
         href="https://www.instagram.com/enactus.ufesvitoria/"

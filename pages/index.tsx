@@ -8,7 +8,7 @@ const Home: NextPage = () => {
         gridArea={"main"}
         w="100%"
         overflow={"hidden"}
-        h={["100vh", "90vh"]}
+        h={["100vh", "100vh"]}
         bg={"url(bg.png) center/cover no-repeat"}
         filter="auto"
         blur="3px"
@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         top={0}
       />
 
-      <Box w="100%" h="90vh" bg={"transparent"} top={0} gridArea={"main"}>
+      <Box w="100%" h="100vh" bg={"transparent"} top={0} gridArea={"main"}>
         <VStack
           gap={4}
           w="100%"

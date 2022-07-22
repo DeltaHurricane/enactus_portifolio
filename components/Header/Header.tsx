@@ -37,6 +37,7 @@ export function Header(): ReactElement {
           : "0px 0px 0px 0px rgba(0,0,0,0)",
       ]}
       transition={"box-shadow 0.2s ease 0s"}
+      zIndex={1}
     >
       <Show above="sm">
         <Image
